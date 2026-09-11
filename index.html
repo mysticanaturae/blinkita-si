@@ -1,0 +1,1444 @@
+<!doctype html>
+<html lang="sl">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  >
+
+  <title>BLINKITA — Living Digital World</title>
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     CINEMATIC INTRO
+     ONE INTRO ONLY
+========================================================= -->
+
+<div
+  id="blinkita-intro"
+  class="blinkita-intro"
+>
+
+
+  <!-- ATMOSPHERE -->
+
+  <div class="intro-stars"></div>
+
+  <div class="intro-glow intro-glow-one"></div>
+
+  <div class="intro-glow intro-glow-two"></div>
+
+
+  <!-- TOP -->
+
+  <div class="intro-top">
+
+    <div class="intro-mini-brand">
+      BLINKITA
+    </div>
+
+
+    <div class="intro-controls">
+
+      <button
+        class="language active"
+        data-lang="sl"
+        type="button"
+      >
+        SLO
+      </button>
+
+      <span>/</span>
+
+      <button
+        class="language"
+        data-lang="en"
+        type="button"
+      >
+        EN
+      </button>
+
+
+      <button
+        id="skipIntro"
+        class="skip-intro"
+        type="button"
+      >
+
+        <span data-i18n="skip">
+          Preskoči uvod
+        </span>
+
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- =======================================================
+       INTRO STAGE
+  ======================================================== -->
+
+  <main class="intro-stage">
+
+
+    <!-- =====================================================
+         SLIDE 1 · QUESTION
+    ====================================================== -->
+
+    <section
+      class="intro-slide active"
+      data-slide="0"
+    >
+
+      <div class="intro-small-title">
+        BLINKITA
+      </div>
+
+
+      <h1>
+
+        <span data-i18n="slide1a">
+          Misliš, da živiš skozi čas.
+        </span>
+
+
+        <em data-i18n="slide1b">
+          Kaj, če čas živi skozi tebe?
+        </em>
+
+      </h1>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SLIDE 2 · AWAKENING
+    ====================================================== -->
+
+    <section
+      class="intro-slide"
+      data-slide="1"
+    >
+
+      <div class="intro-small-title">
+        LIVING TIME
+      </div>
+
+
+      <h2>
+
+        <span data-i18n="slide2a">
+          Čas ni samo nekaj, kar mineva.
+        </span>
+
+
+        <em data-i18n="slide2b">
+          Je prostor, skozi katerega živiš.
+        </em>
+
+      </h2>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SLIDE 3 · FIVE DOORS
+    ====================================================== -->
+
+    <section
+      class="intro-slide"
+      data-slide="2"
+    >
+
+      <div
+        class="intro-small-title"
+        data-i18n="slide3title"
+      >
+        Pet vrat.
+      </div>
+
+
+      <div class="intro-doors">
+
+        <span>
+          BODY
+        </span>
+
+        <span>
+          MIND
+        </span>
+
+        <span class="door-time">
+          TIME
+        </span>
+
+        <span>
+          LIFE
+        </span>
+
+        <span>
+          CIRCLE
+        </span>
+
+      </div>
+
+
+      <h2
+        class="big-line"
+        data-i18n="slide3main"
+      >
+        En živ svet.
+      </h2>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SLIDE 4 · ENTRY
+    ====================================================== -->
+
+    <section
+      class="intro-slide"
+      data-slide="3"
+    >
+
+      <div class="final-location">
+        BELIZE · CARIBBEAN · EARTH
+      </div>
+
+
+      <h2 class="final-hook">
+
+        <span data-i18n="slide4a">
+          BLINKITA
+        </span>
+
+
+        <em data-i18n="slide4b">
+          živi digitalni svet.
+        </em>
+
+      </h2>
+
+
+      <p
+        class="final-text"
+        data-i18n="slide4c"
+      >
+        Prostor za človeka,
+        ki je pripravljen živeti drugače.
+      </p>
+
+
+      <button
+        id="enterBlinkita"
+        class="enter-button"
+        type="button"
+      >
+
+        <span data-i18n="enter">
+          Vstopi v BLINKITA
+        </span>
+
+        <span class="enter-arrow">
+          →
+        </span>
+
+      </button>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- =======================================================
+       REAL BUTTERFLY
+       ONLY ONE
+  ======================================================== -->
+
+  <div
+    class="intro-butterfly"
+    aria-hidden="true"
+  >
+
+    <div class="butterfly-aura"></div>
+
+
+    <div class="butterfly-particles">
+
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </div>
+
+
+    <img
+      src="galakticenmetulj.avif"
+      alt=""
+      class="butterfly-image"
+    >
+
+  </div>
+
+
+
+  <!-- =======================================================
+       INTRO PROGRESS
+  ======================================================== -->
+
+  <div class="intro-progress">
+
+    <button
+      class="progress-dot active"
+      type="button"
+      aria-label="Intro 1"
+    ></button>
+
+    <button
+      class="progress-dot"
+      type="button"
+      aria-label="Intro 2"
+    ></button>
+
+    <button
+      class="progress-dot"
+      type="button"
+      aria-label="Intro 3"
+    ></button>
+
+    <button
+      class="progress-dot"
+      type="button"
+      aria-label="Intro 4"
+    ></button>
+
+  </div>
+
+
+</div>
+
+
+
+<!-- =========================================================
+     MAIN BLINKITA WORLD
+========================================================= -->
+
+<header class="nav">
+
+  <a
+    class="brand"
+    href="#top"
+  >
+    BLINKITA
+  </a>
+
+
+  <nav>
+
+    <a
+      href="#worlds"
+      data-i18n="navWorlds"
+    >
+      Svetovi
+    </a>
+
+
+    <a
+      href="#shop"
+      data-i18n="navShop"
+    >
+      Trgovina
+    </a>
+
+
+    <a
+      href="#live"
+      data-i18n="navLive"
+    >
+      V živo
+    </a>
+
+
+    <a
+      href="#circle"
+      data-i18n="navCircle"
+    >
+      Krog
+    </a>
+
+  </nav>
+
+
+  <div class="nav-actions">
+
+
+    <div class="main-language">
+
+      <button
+        class="main-language-button active"
+        data-lang="sl"
+        type="button"
+      >
+        SLO
+      </button>
+
+      <span>/</span>
+
+      <button
+        class="main-language-button"
+        data-lang="en"
+        type="button"
+      >
+        EN
+      </button>
+
+    </div>
+
+
+    <button
+      class="ghost"
+      data-i18n="myBlinkita"
+      type="button"
+    >
+      Moj BLINKITA
+    </button>
+
+
+    <button
+      class="cart"
+      type="button"
+    >
+
+      <span data-i18n="cart">
+        Košarica
+      </span>
+
+      <span>
+        0
+      </span>
+
+    </button>
+
+  </div>
+
+</header>
+
+
+
+<!-- =========================================================
+     LIVING TIME WIDGET
+========================================================= -->
+
+<aside class="time-widget">
+
+  <div
+    class="eyebrow"
+    data-i18n="todayTime"
+  >
+    Danes v Živem Času
+  </div>
+
+
+  <div class="tz-placeholder">
+    [ TZOLKIN IMAGE ]
+  </div>
+
+
+  <div class="tz-number">
+    7
+  </div>
+
+
+  <div class="tz-name">
+    ZORA / AK'BAL
+  </div>
+
+
+  <small data-i18n="traditionalCount">
+    Tradicionalno štetje · placeholder
+  </small>
+
+
+  <button
+    onclick="openCalc()"
+    data-i18n="calculate"
+    type="button"
+  >
+    Naredi izračun
+  </button>
+
+</aside>
+
+
+
+<!-- =========================================================
+     MAIN
+========================================================= -->
+
+<main id="top">
+
+
+  <!-- =======================================================
+       HERO
+  ======================================================== -->
+
+  <section class="hero">
+
+    <div class="hero-image">
+      [ HERO IMAGE / VIDEO ]
+    </div>
+
+
+    <div class="hero-content">
+
+      <div class="eyebrow">
+        BODY · MIND · TIME · LIFE · CIRCLE
+      </div>
+
+
+      <h1>
+
+        BLINKITA<br>
+
+        <em data-i18n="heroTitle">
+          živi digitalni svet.
+        </em>
+
+      </h1>
+
+
+      <p data-i18n="heroText">
+        Raziskuj zgodbe, orodja,
+        izkušnje in svetove,
+        ki sestavljajo BLINKITA.
+      </p>
+
+
+      <a
+        class="button"
+        href="#worlds"
+        data-i18n="enterBlinkita"
+      >
+        Vstopi v BLINKITA
+      </a>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =======================================================
+       FIVE DOORS
+  ======================================================== -->
+
+  <section class="intro-grid">
+
+
+    <article>
+
+      <span>01</span>
+
+      <h2>
+        BODY
+      </h2>
+
+      <p data-i18n="bodyStory">
+        Tvoje telo ima svojo zgodbo.
+      </p>
+
+      <a
+        href="#body"
+        data-i18n="explore"
+      >
+        Raziskuj →
+      </a>
+
+    </article>
+
+
+    <article>
+
+      <span>02</span>
+
+      <h2>
+        MIND
+      </h2>
+
+      <p data-i18n="mindStory">
+        Spremeni zgodbo, iz katere živiš.
+      </p>
+
+      <a
+        href="#mind"
+        data-i18n="explore"
+      >
+        Raziskuj →
+      </a>
+
+    </article>
+
+
+    <article>
+
+      <span>03</span>
+
+      <h2>
+        TIME
+      </h2>
+
+      <p data-i18n="timeStory">
+        Čas je prostor, skozi katerega živiš.
+      </p>
+
+      <a
+        href="#time"
+        data-i18n="enter"
+      >
+        Vstopi →
+      </a>
+
+    </article>
+
+
+    <article>
+
+      <span>04</span>
+
+      <h2>
+        LIFE
+      </h2>
+
+      <p data-i18n="lifeStory">
+        Življenje je namenjeno temu,
+        da ga živiš.
+      </p>
+
+      <a
+        href="#life"
+        data-i18n="explore"
+      >
+        Raziskuj →
+      </a>
+
+    </article>
+
+
+  </section>
+
+
+
+  <!-- =======================================================
+       BODY
+  ======================================================== -->
+
+  <section
+    id="body"
+    class="feature split reveal"
+  >
+
+    <div class="image-placeholder">
+      [ BLINKITA BODY IMAGE ]
+    </div>
+
+
+    <div>
+
+      <div class="eyebrow">
+        BLINKITA BODY
+      </div>
+
+
+      <h2>
+        Čarovnija vitkosti™
+      </h2>
+
+
+      <p
+        class="lead"
+        data-i18n="bodyLead"
+      >
+        Moja osebna zgodba.
+        51 kg manj.
+        Pot, ki je postala del BLINKITA.
+      </p>
+
+
+      <p data-i18n="bodyText">
+        Programi, coaching,
+        telesne izkušnje in izdelki,
+        ki se bodo tukaj postopoma
+        zložili v svoj svet.
+      </p>
+
+
+      <button
+        class="button"
+        data-i18n="meetStory"
+        type="button"
+      >
+        Spoznaj zgodbo
+      </button>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =======================================================
+       MIND
+  ======================================================== -->
+
+  <section
+    id="mind"
+    class="feature dark reveal"
+  >
+
+    <div>
+
+      <div class="eyebrow">
+        BLINKITA MIND
+      </div>
+
+
+      <h2 data-i18n="mindTitle">
+        Kaj si pripravljena spremeniti?
+      </h2>
+
+
+      <p
+        class="lead"
+        data-i18n="mindLead"
+      >
+        Coaching, avdio, programi
+        in globlje delo z zgodbami,
+        ki oblikujejo tvoje življenje.
+      </p>
+
+
+      <button
+        class="button light"
+        data-i18n="exploreMind"
+        type="button"
+      >
+        Raziskuj Mind
+      </button>
+
+    </div>
+
+
+    <div class="image-placeholder">
+      [ MIND IMAGE / VIDEO ]
+    </div>
+
+  </section>
+
+
+
+  <!-- =======================================================
+       TIME
+  ======================================================== -->
+
+  <section
+    id="time"
+    class="feature split reveal"
+  >
+
+    <div class="image-placeholder">
+      [ LIVING TIME / TZOLKIN IMAGE ]
+    </div>
+
+
+    <div>
+
+      <div class="eyebrow">
+        BLINKITA TIME
+      </div>
+
+
+      <h2>
+        Živ Čas™
+      </h2>
+
+
+      <p
+        class="lead"
+        data-i18n="timeLead"
+      >
+        Čas ni samo nekaj,
+        kar mineva.
+        Je prostor,
+        skozi katerega živiš.
+      </p>
+
+
+      <p data-i18n="timeText">
+        Tradicionalni Tzolk'in,
+        osebni izračuni,
+        dnevni Čas
+        in prihodnja skupna energija
+        BLINKITA Circle.
+      </p>
+
+
+      <button
+        class="button"
+        onclick="openCalc()"
+        data-i18n="calculate"
+        type="button"
+      >
+        Naredi izračun
+      </button>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =======================================================
+       LIFE
+  ======================================================== -->
+
+  <section
+    id="life"
+    class="feature dark reveal"
+  >
+
+    <div>
+
+      <div class="eyebrow">
+        BLINKITA LIFE
+      </div>
+
+
+      <h2 data-i18n="lifeTitle">
+        Življenje,
+        ki ga zares živiš.
+      </h2>
+
+
+      <p
+        class="lead"
+        data-i18n="lifeLead"
+      >
+        Belize, narava,
+        potovanja, ustvarjalnost,
+        izkušnje in kraji,
+        kjer se tvoje življenje odpre.
+      </p>
+
+
+      <button
+        class="button light"
+        data-i18n="exploreLife"
+        type="button"
+      >
+        Raziskuj Life
+      </button>
+
+    </div>
+
+
+    <div class="image-placeholder">
+      [ BELIZE / LIFE IMAGE ]
+    </div>
+
+  </section>
+
+
+
+  <!-- =======================================================
+       SHOP
+  ======================================================== -->
+
+  <section
+    id="shop"
+    class="shop reveal"
+  >
+
+    <div class="section-head">
+
+      <div>
+
+        <div class="eyebrow">
+          BLINKITA SHOP
+        </div>
+
+        <h2 data-i18n="shopTitle">
+          Predmeti,
+          znanje in izkušnje.
+        </h2>
+
+      </div>
+
+
+      <a
+        href="#"
+        data-i18n="viewAll"
+      >
+        Poglej vse →
+      </a>
+
+    </div>
+
+
+    <div class="products">
+
+
+      <article class="product featured">
+
+        <div class="product-image">
+          [ PALO SANTO IMAGE ]
+        </div>
+
+
+        <div class="eyebrow">
+          BLINKITA SIGNATURE
+        </div>
+
+
+        <h3>
+          Premium Palo Santo
+        </h3>
+
+
+        <p data-i18n="paloText">
+          Original premium Palo Santo ·
+          100% Palo Santo essential oil
+        </p>
+
+
+        <strong>
+          € —
+        </strong>
+
+
+        <button
+          class="button small"
+          onclick="addCart('Premium Palo Santo')"
+          data-i18n="discover"
+          type="button"
+        >
+          Odkrij
+        </button>
+
+      </article>
+
+
+
+      <article class="product">
+
+        <div class="product-image">
+          [ BOOK IMAGE ]
+        </div>
+
+
+        <div class="eyebrow">
+          TIME
+        </div>
+
+
+        <h3>
+          Medicina Časa
+        </h3>
+
+
+        <p data-i18n="bookText">
+          Knjiga / digitalna izdaja
+        </p>
+
+
+        <strong>
+          € —
+        </strong>
+
+
+        <button
+          class="button small"
+          onclick="addCart('Medicina Časa')"
+          data-i18n="addCart"
+          type="button"
+        >
+          Dodaj v košarico
+        </button>
+
+      </article>
+
+
+
+      <article class="product">
+
+        <div class="product-image">
+          [ DIGITAL PRODUCT ]
+        </div>
+
+
+        <div class="eyebrow">
+          DIGITAL
+        </div>
+
+
+        <h3>
+          Čas onkraj Časa
+        </h3>
+
+
+        <p data-i18n="digitalText">
+          E-knjiga · aktivacije · avdio
+        </p>
+
+
+        <strong>
+          € —
+        </strong>
+
+
+        <button
+          class="button small"
+          onclick="addCart('Čas onkraj Časa')"
+          data-i18n="addCart"
+          type="button"
+        >
+          Dodaj v košarico
+        </button>
+
+      </article>
+
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =======================================================
+       CIRCLE
+  ======================================================== -->
+
+  <section
+    id="circle"
+    class="circle reveal"
+  >
+
+    <div class="eyebrow">
+      BLINKITA CIRCLE
+    </div>
+
+
+    <h2>
+      One circle.<br>
+      Many journeys.
+    </h2>
+
+
+    <p data-i18n="circleText">
+      Skupnost,
+      dogodki v živo,
+      skupni Živ Čas
+      in razvijajoča se BLINKITA AI.
+    </p>
+
+
+    <div class="circle-stats">
+
+
+      <div>
+
+        <b>—</b>
+
+        <span data-i18n="members">
+          člani
+        </span>
+
+      </div>
+
+
+      <div>
+
+        <b>—</b>
+
+        <span data-i18n="collectiveEnergy">
+          kolektivna energija
+        </span>
+
+      </div>
+
+
+      <div>
+
+        <b>—</b>
+
+        <span data-i18n="todaysTime">
+          današnji Čas
+        </span>
+
+      </div>
+
+
+    </div>
+
+
+    <button
+      class="button light"
+      data-i18n="enterCircle"
+      type="button"
+    >
+      Vstopi v Krog
+    </button>
+
+  </section>
+
+
+
+  <!-- =======================================================
+       LIVE
+  ======================================================== -->
+
+  <section
+    id="live"
+    class="live reveal"
+  >
+
+    <div class="eyebrow">
+      BLINKITA LIVE
+    </div>
+
+
+    <h2 data-i18n="liveTitle">
+      Srečaj me v živo.
+    </h2>
+
+
+    <div class="live-box">
+      [ FACEBOOK LIVE PLAYER / STREAM PLACEHOLDER ]
+    </div>
+
+
+    <div class="comments">
+      [ BLINKITA COMMENTS PLACEHOLDER ]
+    </div>
+
+  </section>
+
+
+
+  <!-- =======================================================
+       AI
+  ======================================================== -->
+
+  <section class="ai reveal">
+
+    <div class="ai-orb"></div>
+
+
+    <div>
+
+      <div class="eyebrow">
+        BLINKITA AI
+      </div>
+
+
+      <h2>
+        A gentle intelligence<br>
+        for your journey.
+      </h2>
+
+
+      <p data-i18n="aiText">
+        Osebno vodenje,
+        spomin in predlogi
+        skozi tvoj BLINKITA svet.
+        Prava AI povezava pride
+        v naslednji fazi.
+      </p>
+
+
+      <button
+        class="button"
+        data-i18n="meetAI"
+        type="button"
+      >
+        Spoznaj BLINKITA AI
+      </button>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =======================================================
+       WORLDS
+  ======================================================== -->
+
+  <section
+    id="worlds"
+    class="worlds reveal"
+  >
+
+    <div class="section-head">
+
+      <div>
+
+        <div class="eyebrow">
+          BLINKITA WORLDS
+        </div>
+
+
+        <h2 data-i18n="worldsTitle">
+          En svet.
+          Mnoga vrata.
+        </h2>
+
+      </div>
+
+    </div>
+
+
+    <div class="world-grid">
+
+
+      <a
+        href="https://app.blinkita.com"
+      >
+
+        <b>
+          APP
+        </b>
+
+        <span data-i18n="appText">
+          Tvoj BLINKITA svet v žepu.
+        </span>
+
+        ↗
+
+      </a>
+
+
+
+      <a
+        href="https://os.blinkita.com"
+      >
+
+        <b>
+          BLINKITA OS
+        </b>
+
+        <span>
+          A Living Operating System
+          for Humans,
+          Creation and Time.
+        </span>
+
+        ↗
+
+      </a>
+
+
+
+      <a
+        href="https://kodacasa.blinkita.com"
+      >
+
+        <b>
+          KODA ČASA
+        </b>
+
+        <span data-i18n="codeText">
+          Vstop v globlji kod Časa.
+        </span>
+
+        ↗
+
+      </a>
+
+
+
+      <a
+        href="https://aqua.blinkita.com"
+      >
+
+        <b>
+          AQUA
+        </b>
+
+        <span>
+          Energy, water, Reiki
+          and transformation.
+        </span>
+
+        ↗
+
+      </a>
+
+
+    </div>
+
+  </section>
+
+
+</main>
+
+
+
+<!-- =========================================================
+     CALCULATOR
+========================================================= -->
+
+<div
+  id="calc"
+  class="modal"
+>
+
+  <div class="modal-card">
+
+
+    <button
+      class="close"
+      onclick="closeCalc()"
+      type="button"
+    >
+      ×
+    </button>
+
+
+    <div class="eyebrow">
+      BLINKITA TIME
+    </div>
+
+
+    <h2 data-i18n="calcTitle">
+      Izračunaj svoj Čas
+    </h2>
+
+
+    <p data-i18n="calcText">
+      Prva različica je pripravljena
+      za priklop obstoječega
+      tradicionalnega Tzolk'in engine-a.
+    </p>
+
+
+    <div class="choices">
+
+
+      <button
+        data-i18n="myself"
+        type="button"
+      >
+        Jaz
+      </button>
+
+
+      <button
+        data-i18n="another"
+        type="button"
+      >
+        Druga oseba
+      </button>
+
+
+      <button
+        data-i18n="event"
+        type="button"
+      >
+        Dogodek
+      </button>
+
+
+      <button
+        data-i18n="business"
+        type="button"
+      >
+        Poslovanje
+      </button>
+
+
+      <button
+        data-i18n="project"
+        type="button"
+      >
+        Projekt
+      </button>
+
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+  <div class="brand">
+    BLINKITA
+  </div>
+
+
+  <p>
+    BODY · MIND · TIME · LIFE · CIRCLE
+  </p>
+
+
+  <div>
+    APP · OS · KODA ČASA · AQUA
+  </div>
+
+
+  <small>
+    © BLINKITA · V1 portal prototype
+  </small>
+
+</footer>
+
+
+
+<!-- =========================================================
+     APP
+========================================================= -->
+
+<script src="app.js"></script>
+
+
+</body>
+
+</html>
